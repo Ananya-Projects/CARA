@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+    <section id="header">
+        <a href=""><img src="logo.png" class="logo" alt=""></a>
+        
+        <div>
+            <ul id="navbar">
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a class="active"   href="shop.html">Shop</a> </li>
+                <li> <a href="blog.html">Blog</a> </li>
+                <li> <a href="about.html">About</a> </li>
+                <li> <a href="contact.html">Contact</a> </li>
+                <li> <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img  style="height: 430px;" src="r35.jpg" width="100%" id="mainimg" alt="">
+            <div class="small-img-group">
+                <div class="sm-img-col">
+                    <img style="height: 120px;" src="r35.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="sm-img-col">
+                    <img style="height: 120px;" src="r35a.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="sm-img-col">
+                    <img style="height: 120px;" src="r35b.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="sm-img-col">
+                    <img style="height: 120px;" src="r35c.jpg" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="single-pro-details">
+            <h6>H&M</h6>
+            <h4>Relaxed Fit Cotton Cargo trousers</h4>
+            <h2>$78</h2>
+            <select>
+                <option>
+                    Select Size
+                </option>
+                <option>
+                    XS
+                </option>
+                <option>
+                    S
+                </option>
+                <option>
+                    M
+                </option>
+                <option>
+                    L
+                </option>
+                <option>
+                    XL
+                </option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Add to Cart</button>
+            <h4>Product Details</h4>
+            <span>Joggers in cotton twill with covered elastication and a drawstring at the waist. Side pockets, and a back pocket and leg pockets with a flap and press-studs. Covered elastication and a hook and loop tab at the hems.</span>
+        </div>
+</section>
+
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 562 Wellington Road, Street 32, San Francisco</p> 
+            <p><strong>Phone:</strong> +01 2222 365 /(+91) 01 2345 6789</p> 
+            <p><strong>Hours:</strong>Monday - Friday: 9:00 AM - 6:00 PM <br>Saturday: 9:00 AM - 2:00 PM <br>Sunday: Closed</p> 
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+<div class="col">
+            <h4>About</h4>
+            <a href="about.html">About Us</a>
+            <a href="delinfo.html">Delivery Information</a>
+            <a href="pripol.html">Privacy Policy</a>
+            <a href="tac.html">Terms & Conditions</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="cart.html">View Cart</a>
+            <a href="help.html">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Payment</h4>
+            <p>Secured Payment Gateways</p>
+            <img src="pay.png" alt="">
+        </div>
+
+    </footer>
+
+    <script>
+        var mainimg = document.getElementById("mainimg");
+        var smallimg = document.getElementsByClassName("small-img");
+        
+        smallimg[0].onclick = function(){
+            mainimg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function(){
+            mainimg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function(){
+            mainimg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function(){
+            mainimg.src = smallimg[3].src;
+        }
+    </script>
+
+        <div class="copyright">
+            <p style="text-align: center; margin-bottom: 30px; margin-top: -20px; width: 100%;">&copy 2024, Ananya Gupta </p>
+        </div>
+    
+    <script src="index.js"></script>
+</body>
+</htm24
