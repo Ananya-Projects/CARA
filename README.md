@@ -2,7 +2,7 @@
 CARA is a demo ecommerce clothing website designed to showcase a user-friendly, aesthetically pleasing, and technologically advanced online shopping experience. Built using HTML, CSS, and JavaScript, CARA aims to provide a seamless and interactive platform for browsing and purchasing fashion items.   
 
 
-Features
+# Features
 Navigation Bar: The site features a navigation bar with sections for Home, Shop, Blog, About, Contact, and Cart. Each section includes hover effects for enhanced user interaction and easy navigation.
 
 Home Page:
@@ -33,14 +33,14 @@ Cart Overview: Shows the items that users have added to their cart, including pr
 Checkout: Users can review their selections before proceeding to checkout.
 
 
-Technical Details
+# Technical Details
 Languages Used: HTML, CSS, JavaScript
 Animations: Implemented hover effects and shadowing on various elements to enhance visual appeal and user engagement.
 
 
-Getting Started
+# Getting Started
 To view and interact with the CARA demo website, simply open the HTML file in any modern web browser. No server setup is required.
 
 
-Contributing
+# Contributing
 We welcome contributions! Please feel free to fork this repository and submit pull requests.
